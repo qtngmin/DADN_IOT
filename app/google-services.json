@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "973447188848",
+    "project_id": "fir-iot-note10plus",
+    "storage_bucket": "fir-iot-note10plus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973447188848:android:81849de12fd9835fceffb5",
+        "android_client_info": {
+          "package_name": "hm.iot.iotnote10plus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973447188848-j1qksio9utgr2hm18h7ssq9on048aq4l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "hm.iot.iotnote10plus",
+            "certificate_hash": "d507d197820ea9580d34c597b5fc789310067e48"
+          }
+        },
+        {
+          "client_id": "973447188848-7j8462v7qbph3vats75bid41pbt9d2a3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDiM2-wpHjuUlEwjmHZ9fptNOwGSQCXo2g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973447188848-7j8462v7qbph3vats75bid41pbt9d2a3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
