@@ -173,15 +173,24 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
-        android:orientation="horizontal">
+        android:layout_marginTop="10dp">
+
         <Button
             android:id="@+id/generate"
-            android:layout_width="0dp"
+            android:layout_width="252dp"
             android:layout_height="wrap_content"
-            android:text="@string/generate"
             android:layout_marginHorizontal="5dp"
-            android:layout_weight="1"/>
+            android:layout_weight="1"
+            android:text="@string/generate" />
+
+        <Button
+            android:id="@+id/reset"
+            android:layout_width="252dp"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="5dp"
+            android:layout_weight="3"
+            android:backgroundTint="@android:color/black"
+            android:text="RESET" />
     </LinearLayout>
 
     <LinearLayout
@@ -211,7 +220,7 @@
     <com.github.mikephil.charting.charts.LineChart
         android:id="@+id/lineChartTemperature"
         android:layout_width="match_parent"
-        android:layout_height="300dp" />
+        android:layout_height="300dp"/>
 
     <com.github.mikephil.charting.charts.LineChart
         android:id="@+id/lineChartIntensity"
@@ -221,7 +230,8 @@
     <com.github.mikephil.charting.charts.LineChart
         android:id="@+id/lineChartHumidity"
         android:layout_width="match_parent"
-        android:layout_height="300dp" />
+        android:layout_height="300dp"/>
+
 </LinearLayout>
 
 </ScrollView>
